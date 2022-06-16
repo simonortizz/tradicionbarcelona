@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bebidas</title>
-
+    <!-- CDN ANIMACIONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- CSS -->
@@ -14,41 +15,40 @@
 </head>
 <body>
   <!-- NAVEGADOR -->
-  <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">TRADICION BARCELONA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link"  href="entradas.html">ENTRADAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="carnes.html">CARNES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pastas.html">PASTAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="bebidas.html">BEBIDAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="postres.html">POSTRES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ubicacion.html">UBICACION</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navegador">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">TRADICION BARCELONA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link"  href="entradas.html">ENTRADAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carnes.html">CARNES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pastas.html">PASTAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bebidas.html">BEBIDAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="postres.html">POSTRES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ubicacion.html">UBICACION</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
     <!-- SECTION -->
-
-  <div class="container-fluid row m-4">
-    <h1>BEBIDAS</h1>
+    <h1 class="animate__animated animate__fadeInLeft">BEBIDAS</h1>
+  <div class="container-fluid row">
     <div class="card col-sm-12 col-md-6 col-lg-4">
       <img src="../images/cocacola.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -74,27 +74,19 @@
   </div>
 
 
-    <!-- FOOTER -->
-  <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com" target="_blank" role="button"><img src="../images/instagram.png" alt=""></a>
-  
-      </section>
-      <!-- Section: Social media -->
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="instagram">
+      <img src="../images/instagram.png" alt="">
+      <p>@TRADICIONBARCELONA</p>
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="telefono">
+      <img src="../images/telefono.png" alt="">
+      <p>2284 - 15508188</p>
     </div>
-    <!-- Copyright -->
+    <div>
+      SINCE 1986 - COPYRIGHT TODOS LOS DERECHOS RESERVADOS
+    </div>
   </footer>
   
 
