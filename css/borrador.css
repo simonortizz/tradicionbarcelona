@@ -1,0 +1,39 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* --------------EDICIONES GENERALES-------------- */
+  body {
+    background-color: #FBEBB4;
+  }
+
+  .navegador {
+    background-color: #DFD99F;
+  }
+  
+  
+  .footer {
+    background-color: #C9C49D;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .instagram, .telefono {
+    display: flex;
+    align-items: center;
+  }
+  
+  .instagram img, .telefono img {
+    width: 40px;
+  }
+  
+  .card img {
+    width: 80%;
+  }
+  
+  h1 {
+    text-align: center;
+  } 

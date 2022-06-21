@@ -2,7 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* --------------EDICIONES GENERALES-------------- */
@@ -16,16 +17,45 @@ body {
 
 .footer {
   background-color: #C9C49D;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.instagram, .telefono {
+.footer .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.instagram img, .telefono img {
+.footer .instagram:hover {
+  color: #FBEBB4;
+}
+
+.footer .instagram img {
+  width: 40px;
+}
+
+.footer .telefono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .telefono:hover {
+  color: #FBEBB4;
+}
+
+.footer .telefono img {
   width: 40px;
 }
 
@@ -36,3 +66,4 @@ body {
 h1 {
   text-align: center;
 }
+/*# sourceMappingURL=style.css.map */
