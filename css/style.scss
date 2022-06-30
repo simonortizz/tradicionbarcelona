@@ -1,5 +1,10 @@
 @import "colores";
 
+@mixin centrado {
+  display: flex;
+  align-items: center;
+}
+
 /* RESET */
 * {
     margin: 0;
@@ -23,8 +28,7 @@
     display: flex;
     justify-content: space-evenly;
     .instagram {
-        display: flex;
-        align-items: center;
+        @include centrado; // -----MIXIN-----
         &:hover {
             color: #FBEBB4;
         }
@@ -33,8 +37,7 @@
         }
     }
     .telefono {
-        display: flex;
-        align-items: center;
+        @include centrado; //-----MIXIN-----
         &:hover {
             color: $colorPrueba;
         }
