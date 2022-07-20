@@ -1,9 +1,5 @@
 @import "colores";
 
-@mixin centrado {
-  display: flex;
-  align-items: center;
-}
 
 /* RESET */
 * {
@@ -20,33 +16,7 @@
 
   .navegador {
     background-color: #DFD99F;
-  }
-  
-  
-  .footer {
-    background-color: #C9C49D;
-    display: flex;
-    justify-content: space-evenly;
-    .instagram {
-        @include centrado; // -----MIXIN-----
-        &:hover {
-            color: #FBEBB4;
-        }
-        img {
-            width: 40px;
-        }
-    }
-    .telefono {
-        @include centrado; //-----MIXIN-----
-        &:hover {
-            color: $colorPrueba;
-        }
-        img {
-            width: 40px;
-        }
-    }
-  }
-  
+  }  
   
   .card img {
     width: 80%;
