@@ -11,15 +11,51 @@ body {
   background-color: #FBEBB4;
 }
 
+
 .navegador {
   background-color: #DFD99F;
 }
+
 
 .card img {
   width: 80%;
 }
 
+
 h1 {
   text-align: center;
+}
+
+
+/* ORGANIZACION DE LOS ELEMENTOS MEDIANTE UN MIXIN */
+footer, .instagram, .facebook, .whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+
+/* EDICION IMAGENES DE REDES SOCIALES */
+footer img {
+  width: 80%;
+}
+
+
+/* EDICIONES LINKS DEL FOOTER */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: grey;
 }
 /*# sourceMappingURL=style.css.map */
